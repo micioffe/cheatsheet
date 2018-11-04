@@ -4,7 +4,7 @@ git config --global user.email "michael@somemail.com"
 git config --global user.name "michael"
 
 ssh-keygen -t rsa -b 4096 -C "michael@kiwinet.co.il" - create ssh key
-cat /c/Users/angelique/.ssh/id_rsa.pub - show public
+cat /c/Users/your-user-name/.ssh/id_rsa.pub - show public
 then copy it and place into whatever needed
 git clone git@bitbucket.org:michaelioffe/qradar_scripts.git - clone repo to your space
 cd /qradar/scripts - wnter your working folder
