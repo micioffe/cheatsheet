@@ -1,1 +1,19 @@
+create workspace folder - for instance mkdir C:/Documents/mydir
+config git:
+git config --global user.email "michael@somemail.com"
+git config --global user.name "michael"
 
+ssh-keygen -t rsa -b 4096 -C "michael@kiwinet.co.il" - create ssh key
+cat /c/Users/angelique/.ssh/id_rsa.pub - show public
+then copy it and place into whatever needed
+git clone git@bitbucket.org:michaelioffe/qradar_scripts.git - clone repo to your space
+cd /qradar/scripts - wnter your working folder
+
+<do some work on file or copy it to this folder>
+
+git add -A -> add ALL
+git commit -> commit
+git pull && git push -> sync with server+push
+
+git log ->see last message commit
+git status ->see branch master
